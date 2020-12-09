@@ -1,10 +1,9 @@
 import express from 'express'
 import smartApp from './smartapp'
-import {Request, ParamsDictionary, Response} from "express-serve-static-core";
 
 
 const server = express();
-const PORT = 3001;
+const PORT = process.env.PORT ?? 3001;
 
 /* Configure Express to handle JSON lifecycle event calls from SmartThings */
 server.use(express.json());

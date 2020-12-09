@@ -1,8 +1,8 @@
-import {SmartApp} from '@smartthings/smartapp'
+import { SmartApp } from '@smartthings/smartapp'
 
 /* Define the SmartApp */
 const smartApp = new SmartApp()
-    .enableEventLogging(2)
+    .enableEventLogging(2) // logs all lifecycle event requests/responses as pretty-printed JSON. Omit in production
     .configureI18n()
 
     // Configuration page definition
