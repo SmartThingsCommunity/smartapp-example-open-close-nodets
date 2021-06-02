@@ -6,6 +6,8 @@
   "scripts": {
     "lint": "eslint . --ext .js,.ts",
     "build": "tsc",
+    "heroku-postbuild": "echo Skipping build since postinstall ran it",
+    "postinstall": "npm run build",
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
