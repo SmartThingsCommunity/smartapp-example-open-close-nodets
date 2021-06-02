@@ -1,6 +1,6 @@
 # Open/Close Lighting Control (TypeScript)
 
-This SmartApp turns on and off a light when something opens and closes. It shows how to subscribe to events and execute device commands.
+The following example SmartApp is the equivalent of a simple Rule (if contact sensor opens/closes, turn lights on/off) which is easily achieved via our [Rules API](https://smartthings.developer.samsung.com/docs/rules/overview.html). This simple automation is used here as a brief functional showcase of a SmartApp using the Node SDK, and is not meant to be a good candidate for a SmartApp. Be sure to check if your automation is possible with the Rules API, as it will benefit from speed, stability, and security through future local execution support.
 
 ## Start
 
@@ -44,12 +44,3 @@ A `CONFIRMATION request` log should show in the log output of the server once re
 ## Test
 
 Follow the instructions for [testing a SmartApp](https://smartthings.developer.samsung.com/docs/testing/how-to-test.html).
-
-## File Structure
-
-* smartapp.ts &mdash; the SmartApp implementation
-* server.ts &mdash; the Express server that hosts the SmartApp as a webhook
-* locales/en.json &mdash; English version of the app configuration page text
-* tsconfig.json &mdash; TypeScript configuration options
-* tslint.json &mdash; TypeScript lint (style) options
-* dist &mdash; Generated JavaScript files

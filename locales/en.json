@@ -1,5 +1,5 @@
 {
-  "pages.mainPage.name": "Open/Close Lighting Control",
+  "pages.mainPage.name": "Open/Close Lighting Control (TypeScript)",
   "pages.mainPage.sections.sensors.name": "When something opens and closes",
   "pages.mainPage.settings.contactSensor.name": "Select an open/close sensor",
   "Tap to set": "Tap to set",
